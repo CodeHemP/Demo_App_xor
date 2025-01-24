@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 
 # Load the trained model
-model = tf.keras.models.load_model("ann_model.h5")
+model = tf.keras.models.load_model("new_model.h5")
 
 # Title for the web app
 st.title("ANN Prediction App")
